@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox</title>
+    <style>
+      .main {
+        display: flex;
+        border: 1 px solid red;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      .flex {
+        background-color: rgb(225, 224, 224);
+        margin: 50px;
+        padding: 10px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        gap: 20px;
+        flex-wrap: wrap;
+        /*flex-grow: 0;
+              flex-shrink: 2;
+              flex-basis: auto;*/
+      }
+      .flex1 {
+        background-color: rgb(234, 0, 255);
+        order: 1;
+        flex-grow: 1;
+        flex-basis: 500px;
+      }
+      .flex2 {
+        background-color: rgb(157, 0, 255);
+        align-items: flex-start;
+        flex-grow: 1;
+        width: 400px;
+        height: 50px;
+      }
+      .flex3 {
+        flex-grow: 1;
+        background-color: rgb(255, 0, 132);
+      }
+      .flex4 {
+        background-color: rgb(225, 0, 255);
+        flex-grow: 1;
+      }
+      .flex5 {
+        background-color: rgb(0, 153, 255);
+        flex-grow: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="flex">
+        <div class="flex1">HTML</div>
+        <div class="flex2">CSS</div>
+        <div class="flex3">JSL</div>
+        <div class="flex4">DF</div>
+        <div class="flex5">KF</div>
+        <div>text</div>
+      </div>
+      <div class="flex">
+        <div class="flex1">HTML</div>
+        <div class="flex2">CSS</div>
+        <div class="flex3">JSL</div>
+        <div class="flex4">DF</div>
+        <div class="flex5">KF</div>
+      </div>
+    </div>
+    <div>
+      <a href="index1.html" taret="_blank">Home Page</a>
+    </div>
+  </body>
+</html>

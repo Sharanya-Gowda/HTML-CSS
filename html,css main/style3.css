@@ -1,0 +1,15 @@
+.fixed {
+  border: 5px solid red;
+  position: fixed;
+  background-color: black;
+  color: white;
+  top: 50px;
+  right: 50px;
+}
+.sticky {
+  border: 1px solid red;
+  position: sticky;
+  background-color: rgb(208, 129, 26);
+  color: white;
+  top: 50px;
+}

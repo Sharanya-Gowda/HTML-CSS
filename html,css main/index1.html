@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>HTML</title>
+  </head>
+  <header class="main-header">
+    <h1 id="header-id" class="header-class">HTML Fundamentals</h1>
+  </header>
+  <div class="layout"></div>
+  <body>
+    <div>
+      <img
+        class="inline"
+        class="top-img"
+        src="image2.jpeg"
+        alt="image picture"
+        width="200"
+        height="100"
+      />
+    </div>
+    <div>
+      <img
+        class="inline"
+        class="second-img"
+        src="image1.png"
+        alt="image picture"
+        width="200"
+        height="100"
+      />
+    </div>
+    <section>
+      <a
+        href="https://www.udemy.com/course/full-stack-web-development-2021-guide-with-nodejs-mongodb/learn/"
+        target="_blank"
+        >Learn more about HTML CSS JS</a
+      ><a href="grid.html" target="_blank">Grid</a>
+    </section>
+
+    <main class="main-class">
+      <p>
+        <b class="inline">HTML (Hypertext Markup Language)</b> is the standard
+        language used to create and structure content on the web. It defines the
+        structure of web pages using elements represented by tags, which define
+        content types like headings, paragraphs, links, images, lists, and more.
+      </p>
+
+      <h1 class="key">Key Concepts of HTML:</h1>
+      <section>
+        <h3>1.Elements and Tags:</h3>
+        <p>
+          <em class="inline">HTML</em> content is structured using tags enclosed
+          in angle brackets, like tagname. Most HTML elements have an opening
+          tag and a closing tag with content placed in between. Some tags are
+          self-closing, like for images or for line breaks.
+        </p>
+      </section>
+      <section>
+        <h3>2.Attributes:</h3>
+        <p>
+          <i class="inline">Tags</i> can have attributes that provide additional
+          information or specify settings for an element. They are written in
+          the opening tag.
+        </p>
+      </section>
+      <section>
+        <h3>3.Common HTML Tags</h3>
+        <ol class="oli">
+          <li>Headings</li>
+          <li>Paragraphs</li>
+          <li>Links</li>
+          <li>Lists</li>
+          <ul>
+            <li>Ordered lists</li>
+          </ul>
+          <ul>
+            <li>Unordered lists</li>
+          </ul>
+          <li>Images</li>
+        </ol>
+      </section>
+      <section>
+        <h3>4.Hyperlink</h3>
+        <p>About Hyperlink</p>
+        <a href="https://www.msrit.edu/" target="_blank">
+          Click here to view information about MSRIT</a
+        >
+      </section>
+
+      <div>
+        <a href="index.html" target="_blank">View First page</a>
+      </div>
+
+      <div><a href="#">Back to home</a></div>
+
+      <section>
+        <h3>5.Creating Tables:</h3>
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Sl no</th>
+              <th>HTML</th>
+              <th>CSS</th>
+              <th>JS</th>
+              <th>Java</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Pammi</td>
+              <td>Pul</td>
+              <td>Mul</td>
+              <td>Yul</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Sharanya</td>
+              <td>Piyu</td>
+              <td>Juyi</td>
+              <td>Lul</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Siddi</td>
+              <td>Shankar</td>
+              <td>Abhi</td>
+              <td>Mayu</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <br />
+      <br />
+      <h3>6.Form Elements</h3>
+      <section>
+        <form>
+          <fieldset>
+            <legend>Form Example</legend>
+            <section>
+              <label for="Name">Name:</label>
+              <input
+                type="text"
+                id="Name"
+                placeholder="Enter a Name"
+                required
+                name="Name"
+              />
+            </section>
+
+            <br />
+
+            <section>
+              <label for="Section">Section:</label>
+              <input
+                type="text"
+                id="Section"
+                placeholder="Enter a Section"
+                required
+                name="Section"
+              />
+            </section>
+
+            <br />
+
+            <section>
+              <label for="email">Email:</label>
+              <input
+                type="text"
+                id="email"
+                placeholder="Enter email"
+                required
+                name="email"
+              />
+            </section>
+
+            <h3>Subjects Interested</h3>
+            <label for="html">HTML</label>
+            <input type="checkbox" id="html" name="language" />
+            <label for="css">CSS</label>
+            <input type="checkbox" id="css" name="language" />
+            <label for="js">JS</label>
+            <input type="checkbox" id="js" name="language" />
+          </fieldset>
+        </form>
+      </section>
+      <br />
+      <br />
+      <section>
+        <h4 class="header second-h4">7.Radio usage</h4>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female" />
+      </section>
+
+      <br />
+      <br />
+      <h3>8.Usage of files</h3>
+      <section>
+        <label for="file">Select file</label>
+        <input type="file" id="file" name="file" />
+      </section>
+      <br />
+      <br />
+      <section>
+        <h4 class="header">9.Usage of option</h4>
+        <label for="country">Select country</label>
+        <select name="country" id="country">
+          <option value="" selected disabled>Countries</option>
+          <option value="india">India</option>
+          <option value="usa">USA</option>
+          <option value="germany">Germany</option>
+          <option value="china">China</option>
+        </select>
+      </section>
+
+      <br />
+      <section>
+        <a href="index3.html" target="_blank">Go to next page</a>
+      </section>
+      <div class="button">
+        <button>Submit</button>
+      </div>
+    </main>
+
+    <hr />
+
+    <footer class="footer">
+      <section>
+        <p id="copywrite">&copy;Created by Sharanya M S</p>
+      </section>
+    </footer>
+  </body>
+</html>
